@@ -9,6 +9,6 @@
             "email": "773999579@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "0.1",
     "require": {}
 }
