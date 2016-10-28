@@ -1,0 +1,14 @@
+{
+    "name": "firstshuai/hasher",
+    "description": "This is laravel for the hasher package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FirstShuai",
+            "email": "773999579@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
