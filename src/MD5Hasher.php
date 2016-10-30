@@ -11,11 +11,12 @@ class MD5Hasher
     public function make($value, array $options = [])
     {
         $salt = isset($options['salt']) ? $options['salt'] : '';
-        return md5($value.$salt);
+        return md5($value . $salt);
     }
-    public function check($value,$hasherValer,array $options = [])
+
+    public function check($value, $hasherValer, array $options = [])
     {
         $salt = isset($options['salt']) ? $options['salt'] : '';
-        return $hasherValer === md5($value.$salt);
+        return $hasherValer === md5($value . $salt);
     }
 }
