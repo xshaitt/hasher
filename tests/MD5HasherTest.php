@@ -1,5 +1,5 @@
 <?php
-namespace FirstShuai\Hasher;
+//namespace FirstShuai\Hasher;
 use \PHPUnit\Framework\TestCase;
 //use FirstShuai\Hasher\MD5Hasher;
 
@@ -14,7 +14,7 @@ class MD5HasherTest extends TestCase
     protected $hasher;
     public function setUp()
     {
-        $this->hasher = new MD5Hasher();
+        $this->hasher = new \FirstShuai\Hasher\MD5Hasher();
     }
     public function testMD5HasherMake()
     {
