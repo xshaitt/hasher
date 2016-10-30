@@ -1,7 +1,7 @@
 <?php
-require_once '/vendor/autoload.php';
+namespace FirstShuai\Hasher;
 use PHPUnit\Framework\TestCase;
-use FirstShuai\Hasher\MD5Hasher;
+//use FirstShuai\Hasher\MD5Hasher;
 
 /**
  * Created by PhpStorm.
