@@ -1,6 +1,6 @@
 <?php
 namespace FirstShuai\Hasher;
-use PHPUnit\Framework\TestCase;
+use \PHPUnit\Framework\TestCase;
 //use FirstShuai\Hasher\MD5Hasher;
 
 /**
