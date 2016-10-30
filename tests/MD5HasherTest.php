@@ -1,4 +1,5 @@
 <?php
+require_once '/vendor/Autoload.php';
 use PHPUnit\Framework\TestCase;
 use FirstShuai\Hasher\MD5Hasher;
 
